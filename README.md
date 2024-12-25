@@ -1,5 +1,10 @@
 # Dengue-Risk-Prediction-Singapore
-• Built a classification model to predict high-risk dengue weeks using climate and case data for Singapore.
-• Selected Singapore as the study area due to its climate uniformity, addressing challenges in country-level dengue case tracking.
-• Engineered lagged and rolling climate features, such as rainfall and temperature patterns, to enhance model performance.
-• Achieved an ROC-AUC score of 0.80 with XGBoost, providing insights into the relationship between climatic factors and disease outbreaks.
+	•Developed a machine learning-based classification system to predict high-risk and low-risk dengue weeks using dengue case data for Singapore.
+ 
+	•Selected Singapore for its relatively small size and climate uniformity, ensuring that country-level climate data could be reliably used for prediction.
+ 
+	•Conducted feature engineering by creating lagged and rolling features for climate data (e.g., temperature and precipitation) and derived interaction terms to enhance predictive accuracy.
+ 
+	•Implemented and compared multiple models (Logistic Regression, Random Forest, XGBoost), with XGBoost achieving the best performance, attaining an ROC-AUC score of 0.80
+ 
+	•Addressed the challenge of country-level dengue case tracking by designing models capable of leveraging uniform climate data to predict outbreaks.
